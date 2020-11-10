@@ -22,4 +22,11 @@ public class GithubController {
 
         return githubService.getGithubRepo(org, n, m);
     }
+
+    @ApiOperation(value = "Default Message")
+    @GetMapping("/")
+    public String defaultMsg() {
+        return "App to get the most popular repository of any organisation and its best contributors. <br>Try Running <a href=\"https://almabase-project.herokuapp.com/repos/google/3/4\">https://almabase-project.herokuapp.com/repos/google/3/4</a> and wait for result.";
+    }
+
 }
