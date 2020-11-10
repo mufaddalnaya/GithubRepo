@@ -12,7 +12,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.util.Collections;
 
-import static springfox.documentation.builders.PathSelectors.regex;
+
+/*
+Swagger Config Class FOr Documentation Purpose
+ */
 
 @EnableSwagger2
 @Configuration

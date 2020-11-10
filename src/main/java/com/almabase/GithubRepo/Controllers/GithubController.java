@@ -10,6 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+/*
+
+Controller Class Containing 2 rest endpoints
+
+ */
+
 @RestController
 public class GithubController {
 

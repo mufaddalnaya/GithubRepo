@@ -10,7 +10,7 @@ This application contains 2 rest endpoints
 <ol>
 <li>"/" : showing a small message</li>
 <li>"/repos/{org}/{n}/{m}" : The url ask for 3 variable inputs the org, n and m. org is a String representing the username of the organisation, n representing the count of repositories and m representing the count of contributors. 
-This request may take 10-15 seconds processing time depending on the repositories created by the oraganisation.
+This request may take 10-15 seconds processing time depending on the repositories created by the organisation.
 <br> Sample image of an api request and its response<br><img src="https://github.com/mufaddalnaya/GithubRepo/blob/master/Screenshots/Api.png"></li>
 </ol>
 
