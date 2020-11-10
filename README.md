@@ -8,7 +8,8 @@ To Run this Project Locally on your system you can either run the command :
 <h4> About Rest Endpoints </h4>
 This application contains 2 rest endpoints
 <ol>
-<li></li>
+<li>"/" : showing a small message</li>
+<li>"/repos/{org}/{n}/{m} : The url ask for 3 vairiable inputs the org, n and m. org is a String representing the username of the organisation, n representing the count of repositories and m representing the count of contributors. " </li>
 </ol>
 
 <h4>POJO Model Classes Present in the Spring Boot Application</h4>
