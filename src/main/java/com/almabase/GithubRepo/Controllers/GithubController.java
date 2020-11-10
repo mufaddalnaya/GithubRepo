@@ -16,8 +16,8 @@ public class GithubController {
     @Autowired
     GithubService githubService;
 
-    @ApiOperation(value = "Returns The n best repositories of the organisation and each repository containing m best committers")
-    @GetMapping("/GetRepo/{org}/{n}/{m}")
+    @ApiOperation(value = "Returns The n best repositories of the organisation and each repository containing details about m best committers")
+    @GetMapping("/repos/{org}/{n}/{m}")
     public List<Repository> getRepos(@PathVariable String org, @PathVariable int n, @PathVariable int m) {
 
         return githubService.getGithubRepo(org, n, m);
