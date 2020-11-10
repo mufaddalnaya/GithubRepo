@@ -1,6 +1,6 @@
 # GithubRepo
 App to get the most popular repository of any organisation and its best contributors
-This application is create in Java 8 and it is a Maven Spring Boot Project.
+This application uses Java 8 and it is a Maven Spring Boot Project.
 To Run this Project Locally on your system you can either run the command : 
 ./mvnw spring-boot:run or open the project on Jetbrains Intellij and run the <a href="https://github.com/mufaddalnaya/GithubRepo/blob/master/src/main/java/com/almabase/GithubRepo/GithubRepoApplication.java">GithubRepoApplication.java</a> file.
 <br>
