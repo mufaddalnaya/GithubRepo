@@ -10,7 +10,7 @@ This application contains 2 rest endpoints
 <ol>
 <li>"/" : showing a small message</li>
 <li>"/repos/{org}/{n}/{m}" : The url ask for 3 variable inputs the org, n and m. org is a String representing the username of the organisation, n representing the count of repositories and m representing the count of contributors. 
-<br> Sample image of an api request and its response<img scr="https://github.com/mufaddalnaya/GithubRepo/blob/master/Screenshots/Api.png"></li>
+<br> Sample image of an api request and its response<br><img src="https://github.com/mufaddalnaya/GithubRepo/blob/master/Screenshots/Api.png"></li>
 </ol>
 
 <h4>POJO Model Classes Present in the Spring Boot Application</h4>
