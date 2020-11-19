@@ -11,8 +11,8 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 public class GithubRepoApplication {
 
-	@Value("${api.PAT}")
-	private String PAT;
+	//@Value("${api.PAT}")
+	//private String PAT;
 
 	public static void main(String[] args) {
 		SpringApplication.run(GithubRepoApplication.class, args);
@@ -24,9 +24,10 @@ public class GithubRepoApplication {
 
 	@Bean
 	public HttpEntity getHttpEntity() {
-		HttpHeaders httpHeaders = new HttpHeaders();
-		httpHeaders.add("Authorization", "token "+PAT);
-		return new HttpEntity(httpHeaders);
+		// HttpHeaders httpHeaders = new HttpHeaders();
+		// httpHeaders.add("Authorization", "token "+PAT);
+		// return new HttpEntity(httpHeaders);
+		return new HttpEntity(new HttpHeaders());
 	}
 
 }
